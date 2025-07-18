@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ')
+print('A frase digitada foi:', frase)
+print('A frase em maiúsculas é:', frase.upper())
+print('A frase em minúsculas é:', frase.lower())
+print('A frase com espaços removidos é:', frase.replace(' ', ''))
+print('A frase invertida é:', frase[::-1]) 
+print('O comprimento da frase é:', len(frase), 'caracteres')
